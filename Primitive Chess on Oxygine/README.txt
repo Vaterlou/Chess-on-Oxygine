@@ -1,0 +1,1 @@
+cd Chess-on-Oxygine/Primitive Chess on Oxygine/proj.cmake/run.sh
