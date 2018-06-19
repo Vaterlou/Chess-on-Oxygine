@@ -1,7 +1,7 @@
-cmake_minimum_required(VERSION 3.11)
+cmake_minimum_required(VERSION 3.5.1)
 project (HelloWorld)
 
-add_subdirectory(../../../ oxygine-framework)
+add_subdirectory(../../../oxygine-framework/ oxygine-framework)
 add_definitions(${OXYGINE_DEFINITIONS})
 include_directories(${OXYGINE_INCLUDE_DIRS})
 link_directories(${OXYGINE_LIBRARY_DIRS})
